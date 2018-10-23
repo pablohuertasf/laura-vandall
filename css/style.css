@@ -1,0 +1,1092 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3611543, 2018-07-18T07:01:43-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Swiss721TL-RomanCondensed by Tilde
+ * URL: https://www.myfonts.com/fonts/tilde/swis721/condensed/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3611543
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright 1990-2007 Bitstream Inc. All rights reserved. Modification for European languages. Copyright 1995-2007 Tilde, SIA.
+ * 
+ * © 2018 MyFonts Inc
+*/
+@charset "utf-8";
+@import url("//hello.myfonts.net/count/371b97");
+@font-face {
+	font-family: 'Swiss721TL-RomanCondensed';
+	src: url('../fonts/Swiss721TL/371B97_0_0.eot');
+	src: url('../fonts/Swiss721TL/371B97_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/Swiss721TL/371B97_0_0.woff2') format('woff2'), url('../fonts/Swiss721TL/371B97_0_0.woff') format('woff'), url('../fonts/Swiss721TL/371B97_0_0.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'RTAliasRough-Regular';
+	src: url('../fonts/RTAliasRough-Regular/RTAliasRough-Regular.woff') format('woff'), url('../fonts/RTAliasRough-Regular/RTAliasRough-Regular.woff2') format('woff2');
+}
+/*--General--*/
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 18px;
+}
+body {
+	background-color: #fff;
+}
+main {
+	height: 100%;
+	overflow: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+ul,
+li,
+table,
+tr,
+th,
+td {
+	font-family: 'RTAliasRough-Regular', Helvetica, Arial;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.125rem;
+	color: #000;
+	text-decoration: none;
+}
+h1 {
+	display: none;
+}
+img,
+video {
+	width: 100%;
+	height: auto;
+}
+.col-4 {
+	width: 16.66%;
+}
+.col-8 {
+	width: 33.33%;
+}
+.col-12 {
+	width: 50%;
+}
+.col-16 {
+	width: 66.66%;
+}
+.col-24 {
+	width: 100%;
+}
+.empty:after {
+	content: '\200b';
+}
+.floated {
+	display: inline-block;
+	float: left;
+}
+.floated:after,
+.project-category:after,
+.project-info:after,
+.bubble:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+.flex {
+	display: flex;
+		-moz-display: flex;
+			-ms-display: flex;
+				-o-display: flex;
+					-webkit-display: flex;
+}
+.flex div {
+	flex: 1;
+}
+.centered {
+	text-align: center;
+}
+.underline {
+	text-decoration: underline;
+}
+/*--Landing--*/
+.NotshowCookie #landing {
+	display: none;
+}
+.NotshowCookie.landing-loaded .categories,
+.NotshowCookie.landing-loaded  .contact {
+	opacity: 1;
+	visibility: visible;
+}
+.landing-loaded:not(.NotshowCookie) {
+	overflow: hidden;
+}
+.landing-loaded .categories,
+.landing-loaded  .contact {
+	opacity: 0;
+	visibility: hidden;
+}
+.landing,
+#landing {
+	background-color: #f92a37;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+	bottom: 0;
+	overflow-y: auto;
+	height: 100vh;
+}
+#whatsapp {
+	padding: 4.3rem 25px 25px;
+}
+#whatsapp span:hover,
+#whatsapp a:hover {
+	color: #f92a37;
+}
+.bubble {
+	margin: 0 0 15px 15px;
+	display: none;
+}
+.inner {
+	display: inline-block;
+	text-transform: uppercase;
+	border-radius: 10px;
+	padding: 25px;
+	background-color: #fff;
+	box-shadow: 2px 2px 1px #000;
+}
+.inner p,
+.inner span,
+.inner a {
+	font-size: 2rem;
+	line-height: 2.4rem;
+}
+#bubble-1 {
+	margin-left: 0;
+}
+#bubble-1 .triangle {
+	width: 0;
+	height: 0;
+	border-right: 15px solid #fff;
+    border-bottom: 15px solid transparent;
+    border-left: 0 solid transparent;
+    float: left;
+	padding: 0;
+}
+#bubble-1 .inner {
+	float: left;
+	border-radius: 0 10px 10px 10px;
+}
+#bubble-1 .inner,
+#bubble-2 .inner {
+	max-width: 28rem;
+}
+#bubble-3 .inner {
+	max-width: 35rem;
+}
+#bubble-4 .inner,
+#bubble-7 .inner {
+	max-width: 47rem;
+}
+#bubble-3 p,
+#bubble-3 span,
+#bubble-3 a {
+	font-size: 3rem;
+	line-height: 3.6rem;
+}
+#bubble-4 .inner,
+#bubble-5 .inner,
+#bubble-6 .inner {
+	text-transform: none;
+}
+/*--Header--*/
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 99;
+}
+#header,
+.main-header,
+.header-content {
+	height: auto;
+	overflow: hidden;
+}
+.logo-container {
+	text-align: center;
+}
+#header a:hover {
+	color: white;
+}
+.main-header {
+	background-color: #f92a37;
+	padding: 8px 25px 2px;
+	border-bottom: 2px solid #000;
+}
+.categories,
+.contact {
+	padding: 1rem 0 0 0;
+}
+.categories li {
+	display: inline-block;
+	text-transform: uppercase;
+}
+.categories nav span a {
+	text-transform: uppercase;
+}
+.contact {
+	text-align: right;
+}
+.contact span {
+	text-transform: uppercase;
+}
+.logo-main,
+.logo-hov {
+	width: auto;
+	height: 2rem;
+}
+.logo-hov {
+	display: none;
+}
+.logo-container a:hover .logo-main {
+	display: none;
+}
+.logo-container a:hover .logo-hov {
+	display: inherit;
+}
+/*--Overlay--*/
+#button {
+	cursor: pointer;
+}
+#button:before {
+	content: '+';
+}
+#button.active:before {
+	content: '-';
+	margin-right: 0.1rem;
+	padding-left: 0.1rem;
+}
+#button:hover {
+	color: white;
+}
+#button-mobile:before {
+	content: '+';
+	font-size: 3rem;
+}
+#button-mobile.active:before {
+	content: '–';
+}
+#button-mobile:hover,
+#button-mobile.active:hover,
+#button-eng:hover,
+#button-esp:hover,
+#button-eng-mobile:hover,
+#button-esp-mobile:hover {
+	color: #fff;
+	cursor: pointer;
+}
+#overlay {
+	width: 100%;
+	display: none;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 98;
+    background-color: #f92a37;
+    overflow-y: auto;
+}
+.overlay-wrapper {
+	padding: 4rem 25px 1rem;
+}
+.overlay-contact,
+.overlay-info p:nth-child(1),
+.overlay-info p span {
+	text-transform: uppercase;
+}
+.overlay-info {
+	padding: 0 16.66%;
+}
+.overlay-info p {
+	margin: 1rem 0 0 0;
+}
+.overlay-info p:nth-child(1) {
+	margin: 0;
+}
+.overlay-info p:nth-child(5) {
+	margin: 1rem 0 1rem 0;
+}
+.overlay-contact p:nth-child(3) {
+	margin: 1rem 0 0 0;
+}
+.overlay-contact p a,
+.overlay-info p a {
+	text-decoration: underline;
+}
+.overlay-contact p a:hover,
+.overlay-info p a:hover {
+	color: #fff;
+}
+.overlay-lang,
+.overlay-lang-mobile {
+	text-align: right;
+	text-transform: uppercase;
+}
+.overlay-lang-mobile {
+	display: none;
+}
+.overlay-logos {
+	padding: 25px 0;
+}
+.overlay-logos-esp {
+	padding: 26.5px 0;
+}
+#button-eng,
+#button-eng-mobile,
+#info-esp,
+.none {display: none;}
+.display {display: inherit !important;}
+/*--Portfolio--*/
+#portfolio {
+	padding: 2.86rem 0 0 0;
+}
+.container-mid {
+	padding: 25px;
+}
+.container-both {
+	border-top: 2px solid #000;
+}
+.container-full {
+	padding: 25px 25% 25px 25%;
+	border-top: 2px solid #000;
+	position: relative; top: -2px;
+}
+.left {
+	border-right: 1px solid #000;
+}
+.right {
+	border-left: 1px solid #000;
+}
+.project-category,
+.project-title {
+	text-align: center;
+}
+.project-category span {
+	font-size: 1.2rem;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	top: 25px;
+}
+.project-cover-v {
+	max-width: 785px !important;
+	height: auto;
+	margin: 0 auto;
+}
+.project-cover-v img {
+	padding: 0 10.6vw 0 10.6vw;
+}
+.v2 img {
+	padding: 0 4.22vw 0 4.22vw;
+}
+.slick-slide {
+	height: auto;
+}
+.project-title.logo-l {
+	padding: 2px 0 25px 0;
+}
+.project-title.logo-m {
+	padding: 18px 0 25px 0;
+}
+.project-title.logo-s {
+	padding: 25px 0 25px 0;
+}
+.project-title.no-logo {
+	padding: 50px 0 25px 0;
+}
+.project-title h2,
+.project-title h2 a,
+.project-title span,
+.project-title span a {
+	font-size: 2rem;
+	line-height: 2.1rem;
+}
+.project-title h2,
+.project-title span,
+.project-title img {
+	display: inline-block;
+}
+.project-title h2 {
+	text-transform: uppercase;
+}
+.project-title.small h2,
+.project-title.small span {
+	font-size: 1.2rem;
+}
+.project-title h2 a:hover,
+.project-title a:hover h2,
+.project-title a:hover span {
+	color: #f92a37;
+}
+.project-title a:hover .logo.black {
+	display: none;
+}
+.project-title a:hover .logo.red {
+	display: inherit;
+}
+.logo {width: auto;
+	position: relative;
+}
+.logo.red {
+	display: none;
+}
+.nike {
+	top: 2rem;
+	height: 4rem;
+}
+.playboy {
+	top: 0.75rem;
+	height: 4rem;
+}
+.spotify {
+	top: 0.8rem;
+	height: 3rem;
+}
+.huawei {
+	top: 1rem;
+	height: 4rem;
+}
+.juicycouture {
+	top: 0.6rem;
+	height: 3rem;
+}
+.vogue {
+	top: 0.4rem;
+	height: 2.5rem;
+}
+.mariakefisherman {
+	top: 20px;
+	height: 3rem;
+}
+.xfinity {
+	top: 0.9rem;
+	height: 3rem;
+}
+.highsnobiety {
+	top: 1.2rem;
+	height: 3.3rem;
+}
+.mac {
+	top: 0.5rem;
+	height: 2.4rem;
+}
+.metal {
+	top: 0.8rem;
+	height: 2.9rem;
+}
+.virgin {
+	top: 1.5rem;
+	height: 5rem;
+}
+.project-credits {
+	margin: 10px 0 0 0;
+}
+.project-credits * {
+	font-family: 'Swiss721TL-RomanCondensed', Helvetica, Arial;
+}
+.project-credits p,
+.project-credits span {
+	font-size: 0.8rem;
+} 
+.project-credits div p span {
+	text-transform: uppercase;
+}
+.credits-left,
+.credits-right {
+	width: 50%;
+	text-align: center;
+}
+.credits-mid {
+	width: 100%;
+	text-align: center;
+}
+.top {
+	position: relative;
+}
+.top-1 {
+	top: -0.45rem;
+}
+.top-2 {
+	top: -0.3rem;
+}
+.top-3 {
+	top: -0.1rem;
+}
+.top-4 {
+	top: -0.05rem;
+}
+/*--Project--*/
+.project {
+	background-color: #000;
+}
+.project .main-header {
+	background-color: transparent;
+	padding: 8px 25px 2px;
+	border-bottom: none;
+}
+#button-close a {
+	font-size: 6rem;
+	line-height: 6rem;
+	margin: 0 0 0.5rem 0;
+}
+#button-close a, #button-project {
+	color: #f92a37;
+	display: block;
+}
+#button-project:before {
+	content: '+';
+}
+#button-project.active:before {
+	content: '–';
+}
+#button-project:hover {
+	color: #fff;
+	cursor: pointer;
+}
+iframe {
+	z-index: 0;
+	padding: 0 120px 0 0;
+	position: fixed;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+/*--Overlay Projects--*/
+#overlay-project {
+	width: 100%;
+	display: none;
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 98;
+    background-color: rgba(0,0,0,0.7);
+    padding: 0 120px 0 0;
+}
+#overlay-project .col-24 {
+	position: relative;
+	top: 30%;
+}
+#overlay-project .project-title h2,
+#overlay-project .project-title span {
+	font-size: 3.5rem;
+	line-height: 3.5rem;
+	color: #f92a37;
+}
+#overlay-project .project-title.small h2,
+#overlay-project .project-title.small span {
+	font-size: 2.1rem;
+}
+#overlay-project .project-credits p,
+#overlay-project .project-credits span {
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: #f92a37;
+}
+#overlay-project .project-title.logo-l,
+#overlay-project .project-title.logo-m,
+#overlay-project .project-title.logo-s,
+#overlay-project .project-title.no-logo {
+	padding: 0 0 2.4rem 0;
+}
+#overlay-project .nike {
+	top: 3.5rem;
+	height: 7rem;
+}
+#overlay-project .mac {
+	top: 0.8rem;
+	height: 4.2rem;
+}
+#overlay-project .xfinity {
+	top: 1.6rem;
+	height: 5.25rem;
+}
+#overlay-project .juicycouture {
+	top: 1.05rem;
+	height: 5.25rem;
+}
+#overlay-project .vogue {
+	top: 0.7rem;
+	height: 4.3rem;
+}
+#overlay-project .spotify {
+	top: 1.4rem;
+	height: 5.25rem;
+}
+#overlay-project .virgin {
+	top: 2.625rem;
+	height: 8.75rem;
+}
+#overlay-project .playboy {
+	top: 1.31rem;
+	height: 7rem;
+}
+#overlay-project .huawei {
+	top: 1.75rem;
+	height: 7rem;
+}
+#overlay-project .mariakefisherman {
+	top: 1.5rem;
+	height: 5.25rem;
+}
+.categories.mobile {
+	padding: 4.5rem 25px 1rem;
+	border-bottom: 2px solid #000;
+}
+/*--Slick--*/
+.slick-arrow {
+	height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+.slick-prev {
+	display: none;
+}
+.slick-next {
+	cursor: url(../icon/next.png), auto !important;
+}
+/*--Mobile--*/
+.mobile {
+	display: none;
+}
+/*--Media Queries--*/
+@media (min-width: 2550px) {
+	.project-cover-v {
+		max-width: 1196px !important;
+		height: auto;
+		margin: 0 auto;
+	}
+	#portfolio {
+		padding: 2.6rem 0 0 0;
+	}
+	.project-cover-v img {
+		padding: 0 12vw 0 12vw;
+	}
+	.v2 img {
+		padding: 0 5vw 0 5vw;
+	}
+}
+@media (min-width: 1910px) {
+	html {
+		font-size: 21px;
+	}
+	#porfolio {
+		padding: 2.1rem 0 0 0;
+	}
+	.project-cover-v {
+		max-width: 1196px !important;
+		height: auto;
+		margin: 0 auto;
+	}
+	.project-cover-v img {
+		padding: 0 11.23vw 0 11.23vw;
+	}
+	.v2 img {
+		padding: 0 5vw 0 5vw;
+	}
+}
+@media (max-width: 1452px) {
+	html {
+		font-size: 16px;
+	}
+	.overlay-info {
+		padding: 0 12.5%;
+	}
+}
+@media (max-width: 1303px) {
+	html {
+		font-size: 15px;
+	}
+}
+@media (max-width: 1227px) {
+	html {
+		font-size: 18px;
+	}
+	.overlay-info {
+		padding: 0 8.33%;
+	}
+	.container-both {
+		border-top: none;
+	}
+	.container-mid {
+		width: 100%;
+		padding: 25px 20% 25px 20%;
+		border-top: 2px solid #000;
+	}
+	.container-full {
+		padding: 25px 20% 25px 20%;
+	}
+	.left {
+		border-right: none;
+	}
+	.right {
+		border-left: none;
+	}
+	.flex {
+		display: block;
+	}
+}
+@media (max-width: 1123px) {
+	html {
+		font-size: 16px;
+	}	
+	.slick-arrow {
+		cursor: auto;
+	}
+}
+@media (max-width: 1001px) {
+	.container-mid {
+		padding: 25px;
+	}
+	.container-full {
+		padding: 25px;
+	}
+	.project-title.small h2,
+	.project-title.small span {
+		font-size: 2rem;
+	}
+}
+@media (max-width: 900px) {
+	#bubble-4 .inner {
+		max-width: 36rem;
+	}
+	#bubble-7 .inner {
+		max-width: 30rem;
+	}
+	.overlay-lang {
+		display: none;
+	}
+	.overlay-lang-mobile {
+		display: inherit;
+	}
+	.overlay-info {
+		width: 100%;
+		padding: 1rem 0 0 0;
+	}
+	.overlay-contact, .overlay-lang-mobile {
+		width: 50%;
+		padding: 1rem 0 0 0;
+	}
+	.overlay-logos {
+		width: 100%;
+	}
+	.overlay-logos img {
+		width: 50%;
+	}
+}
+@media (max-width: 720px) {
+	#overlay {
+		bottom: 0;
+		height: auto;
+	}
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: inherit;
+	}
+	.inner p,
+	.inner span,
+	.inner a {
+		font-size: 1rem;
+		line-height: 1.2rem;
+	}
+	#bubble-1 .inner,
+	#bubble-2 .inner {
+		max-width: 16rem;
+	}
+	#bubble-3 .inner,
+	#bubble-4 .inner,
+	#bubble-7 .inner {
+		max-width: 25rem;
+	}
+	#bubble-3 p,
+	#bubble-3 span,
+	#bubble-3 a {
+		font-size: 2rem;
+		line-height: 2.4rem;
+	}
+	.logo-container {
+		width: 80%;
+		padding-left: 0px;
+		text-align: left !important;
+	}
+	.contact {
+		width: 20%;
+		padding: 10px 0 0 0;
+		text-align: right !important;
+	}
+	.contact span.mobile a {
+		font-size: 3rem;
+	}
+	.logo {
+		position: static;
+	}
+	.project-title h2,
+	.project-title h2 a,
+	.project-title span,
+	.project-title span a,
+	.project-title.small h2,
+	.project-title.small span {
+		font-size: 2rem;
+	}
+	.project-title span,
+	.project-title h2,
+	.project-title.no-logo.mac-mobile span,
+	.project-title.no-logo.mac-mobile h2 {
+		display: block;
+	}
+	.project-title.no-logo span {
+		display: inline-block;
+	}
+	.project-title.logo-l,
+	.project-title.logo-m,
+	.project-title.logo-s {
+		padding: 40px 0 0.7rem 0;
+	}
+	.nike {
+		margin: 5px 0 0 0;
+	}
+	.playboy {
+		margin: -15px 0 0 0;
+	}
+	.spotify {
+		margin: -5px 0 0 0;
+	}
+	.huawei {
+		margin: 10px 0 0 0;
+	}
+	.vogue {
+		margin: 15px 0 0 0;
+	}
+	.mariakefisherman {
+		height: 2.3rem;
+		margin: 10px 0 0 0;
+	}
+	.project #header {
+		display: none;
+	}
+	iframe {
+		padding: 15px 0 0 0;
+	}
+	#overlay-project {
+		padding: 2rem 15px;
+	}
+	iframe,
+	#overlay-project {
+		display: block;
+		position: static;
+	}
+	iframe {
+		height: auto;
+	}
+	#button-project {
+		display: none;
+	}
+	#overlay-project .project-title h2,
+	#overlay-project .project-title span {
+		font-size: 2.75rem;
+		line-height: 2.75rem;
+	}
+	#overlay-project .project-title.small h2,
+	#overlay-project .project-title.small span {
+		font-size: 1.65rem;
+	}
+	#overlay-project .project-credits p,
+	#overlay-project .project-credits span {
+		font-size: 1.1rem;
+		line-height: 1.38rem;
+	}
+	#overlay-project .project-credits .credits-mid p:last-child,
+	#overlay-project .project-credits .credits-right p:last-child {
+		margin: 0 0 2.75rem;
+	}
+	#overlay-project .project-title.logo-l,
+	#overlay-project .project-title.logo-m,
+	#overlay-project .project-title.logo-s,
+	#overlay-project .project-title.no-logo {
+		padding: 0 0 1rem 0;
+	}
+	#overlay-project .nike {
+		top: 2.75rem;
+		height: 5.5rem;
+	}
+	#overlay-project .mac {
+		top: 0.5rem;
+		height: 2.4rem;
+	}
+	#overlay-project .xfinity {
+		top: 1.2rem;
+		height: 4.1rem;
+	}
+	#overlay-project .juicycouture {
+		top: 0.83rem;
+		height: 4.1rem;
+	}
+	#overlay-project .vogue {
+		top: 0.55rem;
+		height: 3.4rem;
+	}
+	#overlay-project .spotify {
+		top: 1.1rem;
+		height: 4.1rem;
+	}
+	#overlay-project .virgin {
+		top: 2rem;
+		height: 5rem;
+	}
+	#overlay-project .playboy {
+		top: 1rem;
+		height: 5.5rem;
+	}
+	#overlay-project .huawei {
+		top: 1.4rem;
+		height: 5.5rem;
+	}
+	#overlay-project .mariakefisherman {
+		top: 0.7rem;
+		height: 4.1rem;
+	}
+}
+@media (max-width: 650px) {
+	#bubble-7 .inner {
+		max-width: 16.5rem;
+	}
+	.credits-left,
+	.credits-right {
+		width: 100%;
+	}
+	.logo {
+		max-width: 100%;
+		padding: 0 10px 0 10px;
+	}
+}
+@media (max-width: 450px) {
+	.container-mid,
+	.container-full {
+		padding: 15px;
+	}
+	.main-header {
+		padding: 8px 15px 2px;
+	}
+	.overlay-wrapper {
+		padding: 4rem 15px 2rem;
+	}
+	.categories.mobile {
+		padding: 4.5rem 15px 1rem;
+	}
+	#whatsapp {
+		padding: 4rem 30px 0 15px;
+	}
+	#bubble-1 .inner {
+		float: left;
+		border-radius: 0 10px 10px 10px;
+		max-width: 250px;
+	}
+	#bubble-1 .triangle {
+		border-right: 15px solid #fff;
+	    border-bottom: 15px solid transparent;
+	    border-left: 0 solid transparent;
+	}
+	#bubble-3 .inner {
+		max-width: 16.5rem;
+	}
+	#bubble-6 .inner {
+		max-width: 13rem;
+	}
+	#overlay-project .project-title h2,
+	#overlay-project .project-title span {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+	#overlay-project .project-title.small h2,
+	#overlay-project .project-title.small span {
+		font-size: 1.2rem;
+	}
+	#overlay-project .project-credits p,
+	#overlay-project .project-credits span {
+		font-size: 0.8rem;
+		line-height: 1rem;
+	}
+	#overlay-project .project-credits .credits-mid p:last-child,
+	#overlay-project .project-credits .credits-right p:last-child {
+		margin: 0 0 2rem;
+	}
+	#overlay-project .project-title.logo-l,
+	#overlay-project .project-title.logo-m,
+	#overlay-project .project-title.logo-s,
+	#overlay-project .project-title.no-logo {
+		padding: 0 0 0.7rem 0;
+	}
+	#overlay-project .nike {
+		top: 2rem;
+		height: 4rem;
+	}
+	#overlay-project .mac {
+		top: 0.5rem;
+		height: 2.4rem;
+	}
+	#overlay-project .xfinity {
+		top: 0.9rem;
+		height: 3rem;
+	}
+	#overlay-project .juicycouture {
+		top: 0.6rem;
+		height: 3rem;
+	}
+	#overlay-project .vogue {
+		top: 0.4rem;
+		height: 2.5rem;
+	}
+	#overlay-project .spotify {
+		top: 0.8rem;
+		height: 3rem;
+	}
+	#overlay-project .virgin {
+		top: 1.5rem;
+		height: 5rem;
+	}
+	#overlay-project .playboy {
+		top: 0.75rem;
+		height: 4rem;
+	}
+	#overlay-project .huawei {
+		top: 1rem;
+		height: 4rem;
+	}
+	#overlay-project .mariakefisherman {
+		top: 0.5rem;
+		height: 3rem;
+	}
+}
